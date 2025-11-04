@@ -15,4 +15,13 @@ Application Goal: A script that takes a product's raw description text (which mi
   - Relevance and clarity of information
 - Output: A refined product description that adheres to the style guide, along with a report highlighting any issues found.
 
+## Workshop Stages and Learning Goals
 
+| Stage | Goal | What You’ll Learn |
+| ---: | --- | --- |
+| 0 | Rapid prompt prototyping | How to quickly test and improve prompts |
+| 1 | Control output randomness | How to tackle Non-Determinism and consistency |
+| 2 | Enforce output format | Structure outputs |
+| 3 | Connect to LLM API | Set up and call the LLM from TypeScript |
+| 4 | Input/output validation | Automate checks for input and output formats |
+| 5 | LLM as evaluator | Use LLM to score and review outputs |
