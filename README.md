@@ -2,6 +2,17 @@
 
 This repository contains materials and resources for the GenAI workshop tailored for Product Quality Engineers. The workshop aims to provide insights into how applications that uses Generative AI can be built, tested, and deployed.
 
+## Workshop Stages and Learning Goals
+
+| Stage | Goal | What You’ll Learn |
+| ---: | --- | --- |
+| 0 | Rapid prompt prototyping | How to quickly test and improve prompts |
+| 1 | Control output randomness | How to tackle Non-Determinism and consistency |
+| 2 | Enforce output format | Structure outputs |
+| 3 | Connect to LLM API | Set up and call the LLM from TypeScript |
+| 4 | Input/output validation | Automate checks for input and output formats |
+| 5 | LLM as evaluator | Use LLM to score and review outputs |
+
 ## Product Description Sanitiser (Data Quality Check)
 For the purpose of this workshop, we will focus on building a simple application that leverages a Large Language Model (LLM) to enhance product description quality.
 
@@ -14,14 +25,3 @@ Application Goal: A script that takes a product's raw description text (which mi
   - Consistency with brand tone and style
   - Relevance and clarity of information
 - Output: A refined product description that adheres to the style guide, along with a report highlighting any issues found.
-
-## Workshop Stages and Learning Goals
-
-| Stage | Goal | What You’ll Learn |
-| ---: | --- | --- |
-| 0 | Rapid prompt prototyping | How to quickly test and improve prompts |
-| 1 | Control output randomness | How to tackle Non-Determinism and consistency |
-| 2 | Enforce output format | Structure outputs |
-| 3 | Connect to LLM API | Set up and call the LLM from TypeScript |
-| 4 | Input/output validation | Automate checks for input and output formats |
-| 5 | LLM as evaluator | Use LLM to score and review outputs |
